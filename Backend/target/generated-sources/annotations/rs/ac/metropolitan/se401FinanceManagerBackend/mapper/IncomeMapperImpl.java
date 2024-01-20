@@ -22,7 +22,7 @@ import rs.ac.metropolitan.se401FinanceManagerBackend.model.UpdateIncomeResponse;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-01-20T23:30:17+0100",
+    date = "2024-01-20T23:35:40+0100",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.5 (Oracle Corporation)"
 )
 public class IncomeMapperImpl implements IncomeMapper {

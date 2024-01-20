@@ -5,4 +5,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="se401FinanceManagerBackend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SE401-Finance-manager-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rs.ac.metropolitan.se401FinanceManagerBackend.se401FinanceManagerBackend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
 </project>
