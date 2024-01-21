@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS `questions` (
 
 INSERT INTO `questions` (`question_id`, `question`, `answer`) VALUES
                                                                   (1, 'How to add new expense?', 'First, log in to the system, then click the "Add expense" button and fill out the form that includes: date, shop, cost, category and then click the "Save" button.'),
-                                                                  (2, 'How to add new income', 'First, log in to the system, then click on button "Incomes" and then click the "Add income" button, then fill out the form that includes: date, source, income and then click the "Save" button.'),
+                                                                  (2, 'How to add new income?', 'First, log in to the system, then click on button "Incomes" and then click the "Add income" button, then fill out the form that includes: date, source, income and then click the "Save" button.'),
                                                                   (3, 'How to check statistics?', 'First, log in to the system, then in the menu click the stats icom and choose which stats u need.');
 
 CREATE TABLE IF NOT EXISTS `questions_sequence` (

@@ -7,7 +7,6 @@
     <list default="true" id="b43c02e9-5f4d-4f88-8ce1-2a384db4a9ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/SE401-Database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SE401-Database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IT355-DB.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705808271925</updated>
-      <workItem from="1705808273299" duration="10028000" />
+      <workItem from="1705808273299" duration="10408000" />
     </task>
     <servers />
   </component>
