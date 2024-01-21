@@ -5,109 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b43c02e9-5f4d-4f88-8ce1-2a384db4a9ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/IT355-DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/IT355-DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/finance-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/finance-api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SE401-Finance-manager-backend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SE401-Finance-manager-backend-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SE401-Finance-manager-backend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/SE401-Finance-manager-backend-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/IT355-DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IT355-DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/finance-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/finance-api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rs/ac/metropolitan/se401FinanceManagerBackend/model/CreateIncomeRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rs/ac/metropolitan/se401FinanceManagerBackend/model/CreateIncomeRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rs/ac/metropolitan/se401FinanceManagerBackend/model/IncomeRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rs/ac/metropolitan/se401FinanceManagerBackend/model/IncomeRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rs/ac/metropolitan/se401FinanceManagerBackend/model/UpdateIncomeRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rs/ac/metropolitan/se401FinanceManagerBackend/model/UpdateIncomeRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/CategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/CategoryMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/ExpenseMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/ExpenseMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/IncomeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/IncomeMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/QuestionMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/rs/ac/metropolitan/se401FinanceManagerBackend/mapper/QuestionMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/rs/ac/metropolitan/se401FinanceManagerBackend/model/CreateIncomeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/rs/ac/metropolitan/se401FinanceManagerBackend/model/CreateIncomeRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/rs/ac/metropolitan/se401FinanceManagerBackend/model/IncomeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/rs/ac/metropolitan/se401FinanceManagerBackend/model/IncomeRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/rs/ac/metropolitan/se401FinanceManagerBackend/model/UpdateIncomeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/rs/ac/metropolitan/se401FinanceManagerBackend/model/UpdateIncomeRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/expense.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/income.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/stat-by-month.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/stat-by-month.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/stat-by-shop.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/stat-by-shop.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/stat-by-year.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/stat-by-year.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/table-options.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/classes/user.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-dialog/expense-dialog.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-dialog/expense-dialog.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-dialog/expense-dialog.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-form/expense-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-form/expense-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-form/expense-form.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-form/expense-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-form/expense-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-month/expense-stat-by-month.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-month/expense-stat-by-month.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-month/expense-stat-by-month.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-month/expense-stat-by-month.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-month/expense-stat-by-month.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-month/expense-stat-by-month.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-source/expense-stat-by-source.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-source/expense-stat-by-source.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-source/expense-stat-by-source.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-source/expense-stat-by-source.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-source/expense-stat-by-source.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-source/expense-stat-by-source.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-year/expense-stat-by-year.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-year/expense-stat-by-year.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-year/expense-stat-by-year.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-year/expense-stat-by-year.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-year/expense-stat-by-year.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-stat-by-year/expense-stat-by-year.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-table/expense-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expense-table/expense-table.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expense-table/expense-table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expenses-dialog/expenses-dialog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/expenses-dialog/expenses-dialog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/expenses-dialog/expenses-dialog.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-dialog/income-dialog.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-dialog/income-dialog.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-dialog/income-dialog.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-form/income-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/income-form/income-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-form/income-form.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-stat-by-month/income-stat-by-month.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/income-stat-by-month/income-stat-by-month.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-stat-by-year/income-stat-by-year.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/income-stat-by-year/income-stat-by-year.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-table/income-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/income-table/income-table.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/income-table/income-table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/incomes-dialog/incomes-dialog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/incomes-dialog/incomes-dialog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/incomes-dialog/incomes-dialog.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/interceptor/auth.inteceptor.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/interceptor/auth.interceptor.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/login-register/login-register.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/question/question.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/question/question.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/question/question.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/questions/questions.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/category.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/expenses.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/incomes.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/question.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/search.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/statistics.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/statistics.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/services/statistics.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/services/user.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-month/stat-by-month.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-month/stat-by-month.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-month/stat-by-month.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-month/stat-by-month.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-property/stat-by-property.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-property/stat-by-property.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-property/stat-by-property.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-property/stat-by-property.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-year/stat-by-year.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-year/stat-by-year.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-year/stat-by-year.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/stat-by-year/stat-by-year.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/yes-no-dialog/yes-no-dialog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/app/yes-no-dialog/yes-no-dialog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/app/yes-no-dialog/yes-no-dialog.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/tsconfig.spec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +42,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
     "spring.configuration.checksum": "2e427c268ac1768b9add94b65e2d6c14",
     "vue.rearranger.settings.migration": "true"
@@ -176,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705808271925</updated>
-      <workItem from="1705808273299" duration="3829000" />
+      <workItem from="1705808273299" duration="8089000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `se401355_finance_manager`;
+CREATE DATABASE IF NOT EXISTS `se401_finance_manager`;
 USE `se401_finance_manager`;
 
 
