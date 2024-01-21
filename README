@@ -1,0 +1,9 @@
+Da bi pokrenuli bacakend aplikaciju potrebno je izvrsiti sledece komande:
+
+Izvrsiti skriptu: SE401-Database.sql 
+Izbildovati backend aplikaciju koriscenjem komande: mvn clean install 
+Startovati backend aplikaciju koristeci komandu: mvn spring-boot:run
+
+Da bi pokrenuli frontend aplikaciju potrebno je izvrsiti sledece komande:
+npm install
+ng serve
