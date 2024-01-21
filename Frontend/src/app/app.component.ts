@@ -78,6 +78,4 @@ export class AppComponent {
   search() {
     this._searchService.passValue(this.form.value.search);
   }
-
-  title = 'it355_frontend';
 }
