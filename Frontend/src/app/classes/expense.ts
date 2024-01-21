@@ -6,6 +6,5 @@ export class Expense {
   date: string
   shop: string
   cost: number
-  user?: User
   category?: Category
 }

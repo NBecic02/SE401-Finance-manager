@@ -9,9 +9,6 @@ import {IncomeTableComponent} from './income-table/income-table.component';
 import {ExpenseFormComponent} from './expense-form/expense-form.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {IncomeFormComponent} from './income-form/income-form.component';
-import {StatByPropertyComponent} from './stat-by-property/stat-by-property.component';
-import {StatByMonthComponent} from './stat-by-month/stat-by-month.component';
-import {StatByYearComponent} from './stat-by-year/stat-by-year.component';
 import {NgxChartsModule, PieChartModule} from "@swimlane/ngx-charts";
 import {LoginRegisterComponent} from './login-register/login-register.component';
 import {HttpClientModule} from "@angular/common/http";
@@ -23,6 +20,11 @@ import {HTTP_INTERCEPTORS} from '@angular/common/http';
 import {AuthInterceptor} from './interceptor/auth.interceptor';
 import {QuestionsComponent} from './questions/questions.component';
 import {CdkAccordionModule} from "@angular/cdk/accordion";
+import {ExpenseStatBySourceComponent} from "./expense-stat-by-source/expense-stat-by-source.component";
+import {ExpenseStatByYearComponent} from "./expense-stat-by-year/expense-stat-by-year.component";
+import {ExpenseStatByMonthComponent} from "./expense-stat-by-month/expense-stat-by-month.component";
+import {IncomeStatByYearComponent} from "./income-stat-by-year/income-stat-by-year.component";
+import {IncomeStatByMonthComponent} from "./income-stat-by-month/income-stat-by-month.component";
 
 @NgModule({
   declarations: [
@@ -31,15 +33,16 @@ import {CdkAccordionModule} from "@angular/cdk/accordion";
     IncomeTableComponent,
     ExpenseFormComponent,
     IncomeFormComponent,
-    StatByPropertyComponent,
-    StatByMonthComponent,
-    StatByYearComponent,
     LoginRegisterComponent,
     ExpensesDialogComponent,
     IncomesDialogComponent,
     YesNoDialogComponent,
     QuestionsComponent,
-
+    ExpenseStatByYearComponent,
+    ExpenseStatByMonthComponent,
+    ExpenseStatBySourceComponent,
+    IncomeStatByYearComponent,
+    IncomeStatByMonthComponent
   ],
   imports: [
     BrowserModule,

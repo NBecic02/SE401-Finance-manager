@@ -1,13 +1,13 @@
 <form (submit)="submitForm()" [formGroup]="form">
   <div class="row">
     <div class="col">
-      <label for="datumKupovine" i18n>Datum</label>
+      <label for="shoppingDate" i18n>Date</label>
       <div class="input-group">
         <input
-          id="datumKupovine"
+          id="shoppingDate"
           class="form-control"
           placeholder="mm-dd-yyyy"
-          name="datumKupovine"
+          name="shoppingDate"
           [(ngModel)]="model"
           ngbDatepicker
           #d="ngbDatepicker"
@@ -18,24 +18,24 @@
       </div>
     </div>
     <div class="col">
-      <label for="prodavnica" i18n>Prodavnica</label>
-      <input type="text" class="form-control" formControlName="shop" id="prodavnica" required>
+      <label for="shop" i18n>Shop</label>
+      <input type="text" class="form-control" formControlName="shop" id="shop" required>
     </div>
     <div class="col">
-      <label for="potrosnja" i18n>Trošak</label>
-      <input type="number" class="form-control" formControlName="expense" id="potrosnja" required>
+      <label for="cost" i18n>Cost</label>
+      <input type="number" class="form-control" formControlName="expense" id="cost" required>
     </div>
     <div class="col">
-      <label for="kategorija" i18n>Kategorija</label>
-      <select class="form-control" formControlName="category" id="kategorija" required>
+      <label for="category" i18n>Category</label>
+      <select class="form-control" formControlName="category" id="category" required>
         <option *ngFor="let category of categoryObject.categoryList" [ngValue]="category">
           {{category.category_name}}
         </option>
       </select>
     </div>
     <div class="col">
-      <button class="btn btn-primary submit-btn" i18n>Sačuvaj</button>
-      <button class="btn btn-warning submit-btn" style="margin-left: 5px" (click)="goBack()" i18n>Nazad</button>
+      <button class="btn btn-primary submit-btn" i18n>Save</button>
+      <button class="btn btn-warning submit-btn" style="margin-left: 5px" (click)="goBack()" i18n>Back</button>
     </div>
   </div>
 </form>

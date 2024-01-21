@@ -1,1 +1,35 @@
-<p>income-stat-by-month works!</p>
+<div class="row main-row">
+  <div class="col-4">
+    <table class="table table-striped">
+      <thead style="background-color: #B8DAFF; border-color: #8F8DF1;">
+      <tr>
+        <th scope="col" i18n>Month</th>
+        <th scope="col" i18n>Cost</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let stat of statsByMonths">
+        <td>{{stat.month}}</td>
+        <td>{{stat.cost | number: '1.1-1'}}</td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <div class="col-8">
+    <ngx-charts-bar-vertical
+      i18n-xAxisLabel
+      i18n-yAxisLabel
+      [results]="statsByMonthChart"
+      xAxisLabel="Month"
+      yAxisLabel="Cost"
+      [xAxis]="xAxis"
+      [yAxis]="yAxis"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [legend]="showLegend"
+      [scheme]="colorScheme"
+    >
+    </ngx-charts-bar-vertical>
+  </div>
+</div>

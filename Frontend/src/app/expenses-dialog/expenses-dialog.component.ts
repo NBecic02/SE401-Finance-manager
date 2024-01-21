@@ -18,22 +18,22 @@ export class ExpensesDialogComponent implements OnInit {
   closeDto: { reason: string, expense: Expense }
   categoryObject: CategoryObject;
   categories: Category[] = [];
+
+  category: Category;
   constructor(public activeModal: NgbActiveModal,
               private _formBuilder: FormBuilder,
               private categoryService: CategoryService) {
   }
 
   ngOnInit(): void {
-    this.buildForm()
-    this.getAllCategories()
+    this.buildForm();
+    this.getAllCategories();
   }
-
   buildForm() {
     let date = new Date(this.expense.date);
     this.model = {
       year: date.getFullYear(), month: (date.getMonth() + 1), day: date.getDate()
     }
-
     this.form = this._formBuilder.group({
       date: new FormControl({
         year: date.getFullYear(),
@@ -49,13 +49,14 @@ export class ExpensesDialogComponent implements OnInit {
   close() {
     let date = this.form.value.date;
     const dateString = new Date(`${date.month}-${date.day}-${date.year}`);
+    console.log(this.category)
     this.closeDto = {
       reason: "save",
       expense: {
         date: dateString.toISOString(),
         cost: this.form.value.expense,
         shop: this.form.value.shop,
-        category: this.form.value.category
+        category: this.categories.find(category => category.category_name === this.form.value.category)
       }
     }
     this.activeModal.close(this.closeDto);

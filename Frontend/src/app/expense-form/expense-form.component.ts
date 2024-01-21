@@ -3,7 +3,6 @@ import {NgbDateStruct} from "@ng-bootstrap/ng-bootstrap";
 import {FormBuilder, FormControl, FormGroup, Validators} from "@angular/forms";
 import {ExpensesService} from "../services/expenses.service";
 import {Router} from "@angular/router";
-import {Category} from "../classes/category";
 import {CategoryService} from "../services/category.service";
 import {CategoryObject} from "../classes/category-object";
 
@@ -49,7 +48,7 @@ export class ExpenseFormComponent implements OnInit {
       }).subscribe(expense => {
         this._router.navigate([""])
       }, error => {
-        alert("Error has occured")
+        alert("Error has occurred")
       })
     }
   }

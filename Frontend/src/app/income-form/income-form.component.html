@@ -1,13 +1,13 @@
 <form [formGroup]="form" (submit)="submitForm()">
   <div class="row">
     <div class="col">
-      <label for="datum" i18n>Datum</label>
+      <label for="date" i18n>Date</label>
       <div class="input-group">
         <input
-          id="datum"
+          id="date"
           class="form-control"
           placeholder="mm-dd-yyyy"
-          name="datumKupovine"
+          name="date"
           [(ngModel)]="model"
           ngbDatepicker
           #d="ngbDatepicker"
@@ -18,16 +18,16 @@
       </div>
     </div>
     <div class="col">
-      <label for="izvor" i18n>Izvor</label>
-      <input type="text" class="form-control" id="izvor" formControlName="source" required>
+      <label for="source" i18n>Source</label>
+      <input type="text" class="form-control" id="source" formControlName="source" required>
     </div>
     <div class="col">
-      <label for="zarada" i18n>Prihod</label>
-      <input type="number" class="form-control" id="zarada" formControlName="income" required>
+      <label for="income" i18n>Income</label>
+      <input type="number" class="form-control" id="income" formControlName="income" required>
     </div>
     <div class="col">
-      <button class="btn btn-primary submit-btn" i18n>Sačuvaj</button>
-      <button class="btn btn-warning submit-btn" style="margin-left: 5px" (click)="goBack()" i18n>Nazad</button>
+      <button class="btn btn-primary submit-btn" i18n>Save</button>
+      <button class="btn btn-warning submit-btn" style="margin-left: 5px" (click)="goBack()" i18n>Back</button>
     </div>
   </div>
 </form>

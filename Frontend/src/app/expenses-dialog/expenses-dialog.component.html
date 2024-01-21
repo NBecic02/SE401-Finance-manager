@@ -1,17 +1,17 @@
 <div class="modal-header">
-  <h4 class="modal-title" id="modal-basic-title" i18n>Izmena troška</h4>
+  <h4 class="modal-title" id="modal-basic-title" i18n>Edit expense</h4>
   <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
 </div>
 <div class="modal-body">
   <form [formGroup]="form">
     <div class="mb-3">
-      <label for="datumKupovine" i18n>Datum kupovine</label>
+      <label for="shoppingDate" i18n>Date</label>
       <div class="input-group">
         <input
-          id="datumKupovine"
+          id="shoppingDate"
           class="form-control"
           placeholder="mm-dd-yyyy"
-          name="datumKupovine"
+          name="shoppingDate"
           [(ngModel)]="model"
           ngbDatepicker
           #d="ngbDatepicker"
@@ -21,17 +21,17 @@
         <button class="btn btn-outline-secondary bi bi-calendar3" (click)="d.toggle()" type="button"></button>
       </div>
       <div class="row">
-        <label for="prodavnica" i18n>Prodavnica</label>
-        <input type="text" class="form-control" formControlName="shop" id="prodavnica" required>
+        <label for="shop" i18n>Shop</label>
+        <input type="text" class="form-control" formControlName="shop" id="shop" required>
       </div>
       <div class="row">
-        <label for="potrosnja" i18n>Trošak</label>
-        <input type="number" class="form-control" formControlName="expense" id="potrosnja" required>
+        <label for="cost" i18n>Cost</label>
+        <input type="number" class="form-control" formControlName="expense" id="cost" required>
       </div>
       <div class="col">
-        <label for="kategorija" i18n>Kategorija</label>
-        <select class="form-control" formControlName="category" id="kategorija" required>
-          <option *ngFor="let category of categories" [ngValue]="category">
+        <label for="category" i18n>Category</label>
+        <select class="form-control" formControlName="category" id="category" required>
+          <option *ngFor="let category of categories" [ngValue]="category.category_name">
             {{category.category_name}}
           </option>
         </select>
@@ -40,5 +40,5 @@
   </form>
 </div>
 <div class="modal-footer">
-  <button type="button" class="btn btn-outline-dark" (click)="close()" i18n>Sačuvaj</button>
+  <button type="button" class="btn btn-outline-dark" (click)="close()" i18n>Save</button>
 </div>

@@ -42,7 +42,7 @@ export class IncomesDialogComponent implements OnInit {
   close() {
     let date = this.form.value.date;
     const dateString = new Date(`${date.month}-${date.day}-${date.year}`);
-
+    console.log(this.form.value, "AAAAAAAA")
     this.closeDto = {
       reason: "save",
       income: {

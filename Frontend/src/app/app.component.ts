@@ -31,6 +31,8 @@ export class AppComponent {
   }
 
   navigateToHome() {
+    this.form.get("search").setValue("");
+    this._searchService.passValue("");
     this._router.navigate([""]).then()
   }
 
@@ -44,6 +46,14 @@ export class AppComponent {
 
   navigateToStatisticsByMonth() {
     this._router.navigate(["stat-month"])
+  }
+
+  navigateToIncomeStatisticByYear() {
+    this._router.navigate(["income-stat-year"])
+  }
+
+  navigateToIncomeStatisticsByMonth() {
+    this._router.navigate(["income-stat-month"])
   }
 
   changeLocale(lang: string) {

@@ -9,15 +9,23 @@ export class StatisticsService {
   constructor(private _http: HttpClient) {
   }
 
-  getStatByShop() {
+  expenseGetStatByShop() {
     return this._http.get("http://localhost:8080/expense-statistic-by-shop", {withCredentials: true});
   }
 
-  getStatsByMonth() {
+  expenseGetStatsByMonth() {
     return this._http.get("http://localhost:8080/expense-statistic-by-month", {withCredentials: true});
   }
 
-  getStatsByYear() {
+  expenseGetStatsByYear() {
     return this._http.get("http://localhost:8080/expense-statistic-by-year", {withCredentials: true});
+  }
+
+  incomeGetStatsByMonth() {
+    return this._http.get("http://localhost:8080/income-statistic-by-month", {withCredentials: true});
+  }
+
+  incomeGetStatsByYear() {
+    return this._http.get("http://localhost:8080/income-statistic-by-year", {withCredentials: true});
   }
 }

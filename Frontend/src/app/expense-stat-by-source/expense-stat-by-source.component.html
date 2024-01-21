@@ -1,1 +1,32 @@
 <p>expense-stat-by-source works!</p>
+<div class="row main-row">
+  <div class="col-4">
+    <table class="table table-striped">
+      <thead style="background-color: #B8DAFF; border-color: #8F8DF1;">
+      <tr>
+        <th scope="col" i18n>Shop</th>
+        <th scope="col" i18n>Cost</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let stat of statsByShop">
+        <td>{{stat.shop}}</td>
+        <td>{{stat.cost | number: '1.1-1'}}</td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <div class="col-8">
+    <ngx-charts-pie-chart
+      [results]="statsByShopPie"
+      [gradient]="gradient"
+      [legend]="showLegend"
+      [legendPosition]="legendPosition"
+      [labels]="showLabels"
+      [doughnut]="isDoughnut"
+      [scheme]="colorScheme"
+    >
+    </ngx-charts-pie-chart>
+  </div>
+</div>

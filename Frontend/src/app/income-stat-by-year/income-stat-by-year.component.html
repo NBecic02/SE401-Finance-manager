@@ -1,1 +1,33 @@
-<p>income-stat-by-year works!</p>
+<div class="row main-row">
+  <div class="col-4">
+    <table class="table table-striped">
+      <thead style="background-color: #B8DAFF; border-color: #8F8DF1;">
+      <tr>
+        <th scope="col" i18n>Year</th>
+        <th scope="col" i18n>Cost</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let stat of statsByYear">
+        <td>{{stat.year}}</td>
+        <td>{{stat.cost | number: '1.1-1'}}</td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <div class="col-8">
+    <ngx-charts-bar-vertical
+      [results]="statsByYearChart"
+      [xAxisLabel]="xLabel"
+      [yAxisLabel]="yLabel"
+      [xAxis]="xAxis"
+      [yAxis]="yAxis"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [legend]="showLegend"
+      [scheme]="colorScheme"
+    >
+    </ngx-charts-bar-vertical>
+  </div>
+</div>

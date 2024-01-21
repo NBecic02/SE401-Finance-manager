@@ -1,7 +1,6 @@
 <nav class="navbar navbar-light bg-light" *ngIf="showNavbar">
   <div class="container-fluid">
-    <a class="navbar-brand" (click)="navigateToHome()" style="cursor: pointer"><span class="bi bi-house"
-                                                                                     style="margin-right: 10px"></span>
+    <a class="navbar-brand" (click)="navigateToHome()" style="cursor: pointer"><span class="bi bi-house" style="margin-right: 10px"></span>
       <span
         class="home-logo">Finance manager</span></a>
     <form [formGroup]="form" class="d-flex input-group w-auto">
@@ -13,9 +12,11 @@
         </button>
 
         <div class="dropdown-menu" aria-labelledby="statDropdownBtn">
-          <button type="button" class="dropdown-item" (click)="navigateToStatisticByShop()" i18n>Statistika po prodavnicama</button>
-          <button type="button" class="dropdown-item" (click)="navigateToStatisticByYear()" i18n>Statistika po godinama</button>
-          <button type="button" class="dropdown-item" (click)="navigateToStatisticsByMonth()" i18n>Statistika po mesecima</button>
+          <button type="button" class="dropdown-item" (click)="navigateToStatisticByShop()" i18n>Expense stats by source</button>
+          <button type="button" class="dropdown-item" (click)="navigateToStatisticByYear()" i18n>Expense stats by year</button>
+          <button type="button" class="dropdown-item" (click)="navigateToStatisticsByMonth()" i18n>Expense stats by month</button>
+          <button type="button" class="dropdown-item" (click)="navigateToIncomeStatisticByYear()" i18n>Income stats by year</button>
+          <button type="button" class="dropdown-item" (click)="navigateToIncomeStatisticsByMonth()" i18n>Income stats by month</button>
         </div>
       </div>
 
