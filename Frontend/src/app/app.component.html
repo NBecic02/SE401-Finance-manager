@@ -1,0 +1,38 @@
+<nav class="navbar navbar-light bg-light" *ngIf="showNavbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" (click)="navigateToHome()" style="cursor: pointer"><span class="bi bi-house"
+                                                                                     style="margin-right: 10px"></span>
+      <span
+        class="home-logo">Finance manager</span></a>
+    <form [formGroup]="form" class="d-flex input-group w-auto">
+      <button class="btn" type="button" (click)="logoutUser()"><i class="bi bi-box-arrow-right"></i></button>
+      <div class="dropdown">
+        <button class="btn" type="button" id="statDropdownBtn" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+          <span class="fi icon-stat"></span>
+        </button>
+
+        <div class="dropdown-menu" aria-labelledby="statDropdownBtn">
+          <button type="button" class="dropdown-item" (click)="navigateToStatisticByShop()" i18n>Statistika po prodavnicama</button>
+          <button type="button" class="dropdown-item" (click)="navigateToStatisticByYear()" i18n>Statistika po godinama</button>
+          <button type="button" class="dropdown-item" (click)="navigateToStatisticsByMonth()" i18n>Statistika po mesecima</button>
+        </div>
+      </div>
+
+      <input
+        type="search"
+        class="form-control search-control"
+        placeholder="Search"
+        aria-label="Search"
+        aria-describedby="search-addon"
+        formControlName="search"
+        (keyup.enter)="search()"
+        (keydown.enter)="search()"
+      />
+      <button type="button" class="btn btn-outline-primary" (click)="search()">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>
