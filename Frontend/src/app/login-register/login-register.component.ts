@@ -47,14 +47,13 @@ export class LoginRegisterComponent implements OnInit {
   }
 
   submitRegister() {
-    if (this.registerFormGroup.value.password === this.registerFormGroup.value.confPassword) {
+    if (this.registerFormGroup?.value?.password === this.registerFormGroup?.value?.confPassword) {
       this._userService.registerUser({
-        firstName: this.registerFormGroup.value.firstName,
-        lastName: this.registerFormGroup.value.lastName,
-        username: this.registerFormGroup.value.username,
-        password: this.registerFormGroup.value.password
+        firstName: this.registerFormGroup?.value?.firstName,
+        lastName: this.registerFormGroup?.value?.lastName,
+        username: this.registerFormGroup?.value?.username,
+        password: this.registerFormGroup?.value?.password
       })
-
       this.loginForm = true;
     }
   }

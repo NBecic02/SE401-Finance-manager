@@ -31,7 +31,6 @@ export class IncomeFormComponent implements OnInit {
   }
 
   submitForm() {
-    console.log(this.form.value, "AAAAAAAa")
     if (this.form.valid) {
       let date = this.form.value.date;
       const dateString = new Date(`${date.month}-${date.day}-${date.year}`);

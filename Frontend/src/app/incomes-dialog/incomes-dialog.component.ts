@@ -40,19 +40,21 @@ export class IncomesDialogComponent implements OnInit {
   }
 
   close() {
-    let date = this.form.value.date;
-    const dateString = new Date(`${date.month}-${date.day}-${date.year}`);
-    console.log(this.form.value, "AAAAAAAA")
-    this.closeDto = {
-      reason: "save",
-      income: {
-        date: dateString.toISOString(),
-        earning: this.form.value.income,
-        source: this.form.value.source
+    if (this.form.valid) {
+      let date = this.form.value.date;
+      const dateString = new Date(`${date.month}-${date.day}-${date.year}`);
+      console.log(this.form.value, "AAAAAAAA")
+      this.closeDto = {
+        reason: "save",
+        income: {
+          date: dateString.toISOString(),
+          earning: this.form.value.income,
+          source: this.form.value.source
+        }
       }
-    }
 
     this.activeModal.close(this.closeDto);
+    }
   }
 
 }
