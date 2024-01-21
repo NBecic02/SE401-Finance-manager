@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS `it355_finance_manager`;
-USE `it355_finance_manager`;
+CREATE DATABASE IF NOT EXISTS `se401355_finance_manager`;
+USE `se401_finance_manager`;
 
 
 CREATE TABLE categories (
@@ -34,7 +34,6 @@ ADD FOREIGN KEY (category_id) REFERENCES categories(category_id);
 CREATE TABLE incomes (
   income_id int(11) NOT NULL PRIMARY KEY,
   user_id int(11) NOT NULL,
-  category_id int(11) NOT NULL,
   date datetime NOT NULL,
   source varchar(256) NOT NULL,
   earning decimal NOT NULL
@@ -42,8 +41,6 @@ CREATE TABLE incomes (
 
 ALTER TABLE incomes
 ADD FOREIGN KEY (user_id) REFERENCES users(user_id);
-ALTER TABLE incomes
-ADD FOREIGN KEY (category_id) REFERENCES categories(category_id);
 
 CREATE TABLE questions (
   question_id int(11) NOT NULL PRIMARY KEY,

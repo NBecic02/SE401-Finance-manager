@@ -592,8 +592,6 @@ components:
         earning:
           type: number
           example: 7000
-        category:
-          $ref: '#/components/schemas/Category'
     GetQuestionsResponse:
       type: object
       properties:

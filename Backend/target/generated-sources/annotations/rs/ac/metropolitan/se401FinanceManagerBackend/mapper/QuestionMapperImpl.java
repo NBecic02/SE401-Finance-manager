@@ -13,7 +13,7 @@ import rs.ac.metropolitan.se401FinanceManagerBackend.model.UpdateQuestionRespons
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-01-20T23:35:40+0100",
+    date = "2024-01-21T06:37:31+0100",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.5 (Oracle Corporation)"
 )
 public class QuestionMapperImpl implements QuestionMapper {

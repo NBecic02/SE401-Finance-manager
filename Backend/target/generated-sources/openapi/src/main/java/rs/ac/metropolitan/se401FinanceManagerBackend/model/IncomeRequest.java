@@ -7,7 +7,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
-import rs.ac.metropolitan.se401FinanceManagerBackend.model.Category;
 import java.io.Serializable;
 import javax.validation.Valid;
 import javax.validation.constraints.*;
@@ -27,9 +26,6 @@ public class IncomeRequest  implements Serializable {
 
   @JsonProperty("earning")
   private BigDecimal earning = null;
-
-  @JsonProperty("category")
-  private Category category = null;
 
   public IncomeRequest date(OffsetDateTime date) {
     this.date = date;
@@ -93,27 +89,6 @@ public class IncomeRequest  implements Serializable {
     this.earning = earning;
   }
 
-  public IncomeRequest category(Category category) {
-    this.category = category;
-    return this;
-  }
-
-  /**
-   * Get category
-   * @return category
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public Category getCategory() {
-    return category;
-  }
-
-  public void setCategory(Category category) {
-    this.category = category;
-  }
-
 
   @Override
   public boolean equals(java.lang.Object o) {
@@ -126,13 +101,12 @@ public class IncomeRequest  implements Serializable {
     IncomeRequest incomeRequest = (IncomeRequest) o;
     return Objects.equals(this.date, incomeRequest.date) &&
         Objects.equals(this.source, incomeRequest.source) &&
-        Objects.equals(this.earning, incomeRequest.earning) &&
-        Objects.equals(this.category, incomeRequest.category);
+        Objects.equals(this.earning, incomeRequest.earning);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(date, source, earning, category);
+    return Objects.hash(date, source, earning);
   }
 
   @Override
@@ -143,7 +117,6 @@ public class IncomeRequest  implements Serializable {
     sb.append("    date: ").append(toIndentedString(date)).append("\n");
     sb.append("    source: ").append(toIndentedString(source)).append("\n");
     sb.append("    earning: ").append(toIndentedString(earning)).append("\n");
-    sb.append("    category: ").append(toIndentedString(category)).append("\n");
     sb.append("}");
     return sb.toString();
   }

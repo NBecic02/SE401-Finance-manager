@@ -3,7 +3,6 @@ package rs.ac.metropolitan.se401FinanceManagerBackend.model;
 import java.util.Objects;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
-import rs.ac.metropolitan.se401FinanceManagerBackend.model.Category;
 import rs.ac.metropolitan.se401FinanceManagerBackend.model.IncomeRequest;
 import java.io.Serializable;
 import javax.validation.Valid;
