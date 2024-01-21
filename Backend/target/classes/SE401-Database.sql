@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
     `category_name` varchar(256) NOT NULL,
     `category_description` varchar(256) NOT NULL,
     PRIMARY KEY (`category_id`)
-    );
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `categories` (`category_id`, `category_name`, `category_description`) VALUES
     (1, 'House', 'This category contains all the money spent on house. '),
@@ -28,7 +28,7 @@ INSERT INTO `categories` (`category_id`, `category_name`, `category_description`
 
 CREATE TABLE IF NOT EXISTS `category_sequence` (
     `next_val` bigint DEFAULT NULL
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `category_sequence` (`next_val`) VALUES
     (16);
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `users` (
     `username` varchar(256) NOT NULL,
     `password` varchar(256) NOT NULL,
     PRIMARY KEY (`user_id`)
-    );
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `username`, `password`) VALUES
     (1, 'Nikola', 'Becic', 'nikola.becic', '$2a$08$BA83gAatWfjsWSFjLluraunxUfql/KKvcfGz5jJDvvaDoDA0WQsUW');
@@ -57,7 +57,7 @@ CREATE TABLE IF NOT EXISTS `expenses` (
     KEY `category_id` (`category_id`),
     CONSTRAINT `expenses_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`),
     CONSTRAINT `expenses_ibfk_2` FOREIGN KEY (`category_id`) REFERENCES `categories` (`category_id`)
-    );
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `expenses` (`expense_id`, `user_id`, `category_id`, `date`, `shop`, `cost`) VALUES
      (1, 1, 6, '2023-07-07 00:00:00', 'Sport vision', 5000),
@@ -75,14 +75,14 @@ INSERT INTO `expenses` (`expense_id`, `user_id`, `category_id`, `date`, `shop`, 
 
 CREATE TABLE IF NOT EXISTS `expense_sequence` (
     `next_val` bigint DEFAULT NULL
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `expense_sequence` (`next_val`) VALUES
     (13);
 
 CREATE TABLE IF NOT EXISTS `hibernate_sequence` (
     `next_val` bigint DEFAULT NULL
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `hibernate_sequence` (`next_val`) VALUES
     (2);
@@ -96,7 +96,7 @@ CREATE TABLE IF NOT EXISTS `incomes` (
     PRIMARY KEY (`income_id`),
     KEY `user_id` (`user_id`),
     CONSTRAINT `incomes_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)
-    );
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `incomes` (`income_id`, `user_id`, `date`, `source`, `earning`) VALUES
                                                                                 (1, 1, '2023-01-05 00:00:00', 'Job', 110000),
@@ -115,7 +115,7 @@ INSERT INTO `incomes` (`income_id`, `user_id`, `date`, `source`, `earning`) VALU
 
 CREATE TABLE IF NOT EXISTS `income_sequence` (
     `next_val` bigint DEFAULT NULL
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `income_sequence` (`next_val`) VALUES
     (14);
@@ -125,7 +125,7 @@ CREATE TABLE IF NOT EXISTS `questions` (
                                            `question` varchar(256) NOT NULL,
     `answer` varchar(256) DEFAULT NULL,
     PRIMARY KEY (`question_id`)
-    );
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `questions` (`question_id`, `question`, `answer`) VALUES
                                                                   (1, 'How to add new expense?', 'First, log in to the system, then click the "Add expense" button and fill out the form that includes: date, shop, cost, category and then click the "Save" button.'),
@@ -134,7 +134,7 @@ INSERT INTO `questions` (`question_id`, `question`, `answer`) VALUES
 
 CREATE TABLE IF NOT EXISTS `questions_sequence` (
     `next_val` bigint DEFAULT NULL
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `questions_sequence` (`next_val`) VALUES
     (1);
